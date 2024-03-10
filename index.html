@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recherche de films</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Biblio Film</h1>
+        <nav>
+            <ul>
+                <li>
+                    <form>
+                        <input type="text" id="movie-search" name="movie" required>
+                        <button type="submit">Rechercher</button>
+                    </form>
+                </li>
+            </ul>
+
+        </nav>
+        <main>
+            <section class="search-results" aria-labelledby="search-results-section">
+
+                <!-- Les résultats de recherche seront affichés ici -->
+                <section class="favorites" aria-labelledby="favorites-section">
+                    <h2 id="favorites-section">Favoris</h2>
+                    <!-- Les films ajoutés aux favoris seront affichés ici -->
+                </section>
+        </main>
+        <script src="app.js"></script>
+        <script src="api.js"></script>
+</body>
+
+</html>
+</header>
